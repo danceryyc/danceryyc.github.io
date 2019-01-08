@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>数据类后台系统的视觉设计 | Dancer.y</title>
+  <meta name="description" content="热爱视频动效的UX设计师" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+
+  <meta name="generator" content="Dancer.y">
+
+  
+  
+  
+
+  
+</head>
+
+
+<body class="post-template">
+
+  <header class="site-head">
+    <div class="vertical">
+        <div class="site-head-content inner">
+             <a class="blog-logo" href="/"><img src="//github.com/danceryyc/img/blob/master/%E5%A4%B4%E5%83%8F%E5%9C%86.png?raw=true" alt="Blog Logo"></a> 
+            <h1 class="blog-title">Dancer.y</h1>
+            <h2 class="blog-description">热爱视频动效的UX设计师</h2>
+        </div>
+    </div>
+</header>
+  
+
+<main class="content" role="main">
+  <article class="post">
+    <span class="post-meta">
+      <time datetime="2017-10-17T06:18:00.000Z" itemprop="datePublished">
+          2017-10-17
+      </time>
+    
+</span>
+    <h1 class="post-title">数据类后台系统的视觉设计</h1>
+    <section class="post-content">
+      <p>做DAAS、SAAS、数据应用型产品有2年多的时间了，作为一个一上手B端就独立负责俩条业务线的设计师，多亏了我的领导@斌哥的信任，使得我在压力中获得了成就感，在设计中获得了满足。在此分享一些一个以UX为已任的“视觉设计师”的设计心得。</p>
+<h3 id="配色"><a href="#配色" class="headerlink" title="配色"></a>配色</h3><p>项目开始的前期，我在聆听产品经理阐述prd的时候，通常会一边理解产品，一边琢磨配色来定产品的调性。这样不仅可以设计先行以节省时间，而且可以在整个项目的沟通中充分理解需求方的意图。网上有很多优秀的配色网站每天会提供大量的配色方案供设计师选择，例如color hunt；但是当我要做数据后台系统的界面设计时，却略显尴尬：这上面的大部分配色风格都是不可参考的。</p>
+<p><img src="https://github.com/danceryyc/img/blob/master/%E6%96%87%E7%AB%A01-%E9%85%8D%E5%9B%BE1.png?raw=true" alt="" title="来自color hunt的配图"></p>
+<p>同色相不同明度的配色看起来非常和谐，令人赏心悦目。然而数据/广告产品后台系统数据繁多，层级又深，色彩的引导性应该得到充分利用。同色相的色彩搭配起来难以分辨，看久了也会视觉疲劳，从而导致用户体验下降。 B端产品的功能性颇为重要，如果采用了“流行”、“炫酷”但却伤害用户体验的配色，是十分不可取的。在需求方“高端大气上档次”的要求下，采用一套合适的配色，既要美观，又要有高辨识度。</p>
+<p><img src="https://github.com/danceryyc/img/blob/master/%E6%96%87%E7%AB%A01-%E9%85%8D%E5%9B%BE2.png?raw=true" alt=""></p>
+<p>我采用的多是饱和度适中，明度适中，色相相差较大的配色方案。这样的色彩具有足够的分辨功能，用户可以轻松愉悦的使用产品。</p>
+<h3 id="UE"><a href="#UE" class="headerlink" title="UE"></a>UE</h3><p>用户在产品体验中会根据过去的经验来进行一系列操作，特别是处理大型数据的时候，产品模型与心智模型要尽可能结合起来，通过顺利好用的交互来加强产品的稳定性。从细节方面来讲，小到要考虑字段的长短影响的布局：是否要换行或是收起、页面视觉搭配是否平衡等。由于经验的差别，视觉设计师拿到手上的prd or demo不一定是完全考虑详实的原型图。交互不仅仅是产品经理or交互设计师的事情，我认为视觉设计师一样要把控。<br>在这里举一个例子，我在拿到产品原型图之后仔细审视发现，首页的表格表头多达11项，且最右边一列是按钮，由于原型图并没有把整个表格的所有数据填满，但是我脑补了一下，很明显展示出来一定是灾难性的。经之前的用户调研发现，用户（运营人员）大多数是使用分辨率为1366的笔记本电脑，且无外接显示屏，空间利用十分有限。<br>考虑到这里，我决定加俩项交互细节：允许网页左边的侧边栏有醒目的收起功能，且表格中右侧的按钮普通状态下为蓝色（可点击色）文字形式展示，hover的时候变成按钮，这样既不影响功能体验，最大限度的利用了空间，也可以避免用户视觉上的疲劳。</p>
+<p><img src="https://github.com/danceryyc/img/blob/master/%E6%96%87%E7%AB%A01-%E9%85%8D%E5%9B%BE3.png?raw=true" alt=""></p>
+<h3 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h3><p>在经过前期配色的确定和交互细节的商讨后，终于迎来了视觉部分的设计。B端产品的页面通常很多，设计的模块化组件化十分必要。一方面增强以后网站维护的可扩展性，也可以降低前端的开发成本以及与设计的沟通成本。<br>在视觉设计中，我采用了IconFont的引入方式，将Icon上传编成文件供前端下载，优点是大大节省开发时间和沟通时间，缺点是SVG的半个像素在网页上展示不是很圆滑，没有png/jpg的形式表现的好。设计出所有组件后拼装出布局不同的页面，并建立组件页面供前端同学来自行拼装相似度较高的页面。在所有Html完成后由设计师来检查细节并把关。这样可以避免一些重复的“搬砖”，来节省时间去做更有价值的事情。<br>在与前端交付的流程中，我们使用的是Sketch做设计，然后上传Zeplin的方式，省去了设计师按照传统使用Markman手动标注的麻烦。zeplin可以由前端同学自行查看各种间距以及尺寸，下载Assets。缺点就是，即使设计师有0.1px没对齐，也会很容易被发现啦。（づ￣3￣）づ╭❤～</p>
+<h3 id="走查上线，吸收反馈"><a href="#走查上线，吸收反馈" class="headerlink" title="走查上线，吸收反馈"></a>走查上线，吸收反馈</h3><p>设计的最后一步，就是前端小哥哥们的还原啦，如果这一步做不好，将会前功尽弃。这个时候就要不厌其烦的反复走查，用详细的走查文档和超好的态度来拜托前端小哥哥在被测试烦恼的情况下帮助设计师还原精确到1px的设计稿。上线后再与产品沟通，与维护用户群的同事沟通来采纳反馈意见。所幸新版本上线后，用户的反馈是不错的，这是整个产品技术团队努力的成果。    </p>
+<p>以上。(๑•̀ㅂ•́)و✧</p>
+
+    </section>
+    <footer class="post-footer">
+      <section class="author">
+    <h4>yanyc</h4>
+    <p>一枚内心坚韧的设计师</p>
+</section>
+      <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?url=http://danceryyc.github.io/2017/10/17/数据类后台系统的视觉设计/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://danceryyc.github.io/2017/10/17/数据类后台系统的视觉设计/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://danceryyc.github.io/2017/10/17/数据类后台系统的视觉设计/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+    </a>
+</section>
+    </footer>
+  </article>
+  <nav class="pagination" role="pagination">
+    
+    <a class="newer-posts" href="/2017/11/21/一次关于大屏展示设计的思考/">
+        ← 一次关于大屏展示设计的思考
+    </a>
+    
+    <span class="page-number">•</span>
+    
+</nav>
+  <div id="comment" class="comments-area">
+    <h1 class="title"><a href="#disqus_comments" name="disqus_comments">Comments</a></h1>
+
+    
+</div>
+</main>
+
+
+  
+<footer class="site-footer">
+  
+  <div class="inner">
+     <section class="copyright">All content copyright <a href="/">Dancer.y</a> &copy; 2014 &bull; All rights reserved.</section>
+     <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://zespia.tw/hexo/">Hexo</a></section>
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+
+
+
+
+
+
+</body>
+</html>

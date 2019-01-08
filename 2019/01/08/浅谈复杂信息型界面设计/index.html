@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <title>浅谈复杂信息型界面设计 | Dancer.y</title>
+  <meta name="description" content="热爱视频动效的UX设计师" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic|Open+Sans:700,400" />
+
+  <meta name="generator" content="Dancer.y">
+
+  
+  
+  
+
+  
+</head>
+
+
+<body class="post-template">
+
+  <header class="site-head">
+    <div class="vertical">
+        <div class="site-head-content inner">
+             <a class="blog-logo" href="/"><img src="//github.com/danceryyc/img/blob/master/%E5%A4%B4%E5%83%8F%E5%9C%86.png?raw=true" alt="Blog Logo"></a> 
+            <h1 class="blog-title">Dancer.y</h1>
+            <h2 class="blog-description">热爱视频动效的UX设计师</h2>
+        </div>
+    </div>
+</header>
+  
+
+<main class="content" role="main">
+  <article class="post">
+    <span class="post-meta">
+      <time datetime="2019-01-08T06:18:00.000Z" itemprop="datePublished">
+          2019-01-08
+      </time>
+    
+</span>
+    <h1 class="post-title">浅谈复杂信息型界面设计</h1>
+    <section class="post-content">
+      <p>在各种移动设备流行于大街小巷的今天，信息爆炸已成为日常现象，人们有更多的时间和更灵活的场景去接受各类信息。我们在设计产品的过程中，时常想要“塞给”用户更多的信息去吸引用户的关注，从而体现产品的价值。作为一个一直学习理工科的“艺术生”，我以理工科思维与艺术感观相结合的视角从事复杂信息类界面的设计工作已有5年时间了，在此以最近的项目为例总结一下经验心得，希望对各位有所帮助，也能获得各位的建议共同进步。</p>
+<h3 id="了解全局架构"><a href="#了解全局架构" class="headerlink" title="了解全局架构"></a><strong>了解全局架构</strong></h3><p>在着手设计之前，要对产品架构有一个全局的掌握。产品想要传达的主要价值是什么，通过哪种方式被用户发现，通过哪种方式被呈现出来，又通过怎样的交互方式来服务用户。</p>
+<p><img src="" alt="https://github.com/danceryyc/img/blob/master/%E6%96%87%E7%AB%A03-%E9%85%8D%E5%9B%BE1.png?raw=true"></p>
+<p>例如，鲸准是以庞大的数据库为优势，包括各种创业者、投资人、投资项目、募资规模等相关信息，并整合分析了榜单、研报、项目集、融资速递等实时信息来提升用户粘性。那么在繁杂庞大的信息库中，视觉应该如何帮助呈现重要点睛信息呢？</p>
+<p>首先，首页承载了整合各种快速入口的功能，将一些分类下埋藏层级较深价值较大的列表页提到首页入口展示。由于App服务的是双核心用户（创业者/投资人），所以，快捷的入口可以帮助用户随时进入页面寻找自己感兴趣的东西，实际上数据证明这里也是用户点击率比较高的地方。</p>
+<p>App的俩个重要功能-行情（信息）和市场（交易）通过底部导航来完成导向，这俩部分是用户实时关注的地方，也是App留存用户的主要价值所在。</p>
+<p>其余俩个部分为“消息”和“我的”，承载了App最关键的沟通需求和自我资产管理需求。</p>
+<p>理清产品结构后我大致统计了一下各功能模块的主要呈现方式。然后思考在这里视觉可以帮助产品做些什么。</p>
+<p><img src="" alt="https://github.com/danceryyc/img/blob/master/%E6%96%87%E7%AB%A03-%E9%85%8D%E5%9B%BE2.png?raw=true"></p>
+<h3 id="页面呈现方式以及交互"><a href="#页面呈现方式以及交互" class="headerlink" title="页面呈现方式以及交互**"></a>页面呈现方式以及交互**</h3><p>对于复杂信息型页面设计来讲，对视觉来讲最关键的就是列表和详情的展示了（页面的交互层级划分也很重要，在这里先不展开细讲）。各种繁杂的信息类型、超长的列表、细致冗长的详情页面无不让设计师头疼。然而，当这些问题处理好了，视觉自然会展现出一种美观的效果。</p>
+<p>这里我总结了一些设计流程可以帮助解决这些问题：</p>
+<p>1 | 根据产品定位设计风格，确定信息密度；</p>
+<p>2 | 根据产品原型，从用户体验角度给出原型修改建议；</p>
+<p>3 | 制定设计规范，保持设计样式一致性，从而简洁明了的展示信息；</p>
+<p>4 | 根据产品的具体情况处理局部信息展示，不拘泥于一种形式，以不打乱设计风格的前提下优先考虑用户体验而设计。</p>
+<p>5 | 设计时注意实际中一些模块的文本长度应用效果，并在产品测试阶段进行设计走查。</p>
+<p>接下来详细介绍一下我在项目中是如何运用设计流程的。</p>
+<p><img src="https://github.com/danceryyc/img/blob/master/%E6%96%87%E7%AB%A03-%E9%85%8D%E5%9B%BE3.png?raw=true" alt=""></p>
+<p>每个产品有自己的市场定位，如果有品牌设计部门，可能会从他们那里直接得到答案，如果没有品牌设计的同学帮助，那就只有自己与产品多沟通来定位产品。鲸准在经历了创投助手、个人版、数据字典、对接平台、披露平台、交易平台的定位转变后，设计风格也从活泼年轻的“个人版”风格逐渐过渡到“简洁沉稳可信赖的”交易风“。最近的版本突出的交易系统风格所展示的主体内容就是“数据、文本”。在这种定位下，处理好文本信息的展示就犹为重要。在google最新推出的material design的设计指导下，市场上各大应用也在做出改变：突出主体内容，减少不必要的装饰。这个原则也正好满足我们复杂信息类设计的需求。减少不必要的装饰，适当增加留白，适当减少细线所带来的割裂感，保持颜色的克制应用等。</p>
+<p><img src="https://github.com/danceryyc/img/blob/master/%E6%96%87%E7%AB%A03-%E9%85%8D%E5%9B%BE4.png?raw=true" alt="https://img.ui.cn/data/file/6/9/9/2170996.png"></p>
+<p>在前期的产品原型讨论过程中，建议设计师尽量一起参与，否则等产品完全讨论成熟之后，可能会有一些与视觉或者体验冲突的地方，再做修改就会加大成本。</p>
+<p>当拿到产品原型初稿，首先要了解产品想要达成的目标，尽量在不改动产品目标的前提下帮助修改产品原型达到更好的产品体验。下面举个小例子：</p>
+<p>当前产品有一个很重要的功能叫”领域图谱“，用来查看最近各领域的热度走势等信息来帮助投资人和创业者更好的把控市场行情。</p>
+<p>当时拿到的这部分产品原型与市场上大部分竞品类似：即通过左右层层导航、分类进入详情页从而查看走势。</p>
+<p>原型拿到的第一感觉是很理性，但是不够友好，扑面而来的大量选择性文本信息容易使用户望而却步。于是我和小伙伴一起商讨如何才能表现得更好。</p>
+<p>当信息繁杂的时候，如果可以把一部分信息可视化是最好的，这样可以减轻视觉负担，更快速的理解更多信息。据科学研究发现，人在一屏内看5-7条以上的信息时就会觉得有负担，而且大脑处理图像的速度比处理文本要快得多。所以在设计此类页面时，信息可视化做好会为产品增色许多。</p>
+<p>在这个项目里，我们进行了一定的信息可视化处理和信息层级的整合，将数目有限的领域用卡片式交互展示，放上趋势图和具体数据，美观而且直观，鼓励用户进一步的观看，并通过下次进入该页面同领域定位的方式来减少用户不必要的切换次数（大部分用户或者投资人都会关注特定的领域），同时左上角的图标可以展开全部领域列表上下滑动选择，更进一步提供了选择领域的快捷方式。页面内领域下方显示出更进一步的信息图和具体数据，图表下方展示该领域下的公司列表，集合了公司logo、名称、项目数、热度值和热度趋势变化的示意图。这样设计不仅把页面层级减少了，而且丰富了当前页面的信息，优化了用户体验。</p>
+<p><img src="https://github.com/danceryyc/img/blob/master/%E6%96%87%E7%AB%A03-%E9%85%8D%E5%9B%BE5.png?raw=true" alt=""></p>
+<p><img src="https://github.com/danceryyc/img/blob/master/%E6%96%87%E7%AB%A03-%E9%85%8D%E5%9B%BE6.png?raw=true" alt=""></p>
+<p>有了设计原则的指导，我们就可以通过一些页面的设计来制定我们的设计规范，搭建组件库。眼下最快速有效的是用sketch+云盘来完成library来进行更新与协作。（需要注意的是很多同步云盘都被禁了，工位相邻的小伙伴可以选择dropbox，注意俩个小伙伴最好不要同时编辑一个dropbox里的文件容易造成版本冗余生成。或者用一些版本控制软件也可以，类似Abstract，需要付费。mac文件共享也可以解决分享问题，但是只有一个小伙伴可以有编辑权限。）先做出几个核心页面定下基调，通过文本、颜色、间距、icon、item组件等的设计来制定规范，接下来就可以高效的进行页面设计。</p>
+<p><img src="https://github.com/danceryyc/img/blob/master/%E6%96%87%E7%AB%A03-%E9%85%8D%E5%9B%BE7.png?raw=true" alt="https://github.com/danceryyc/img/blob/master/%E6%96%87%E7%AB%A03-%E9%85%8D%E5%9B%BE1.png"></p>
+<p>设计中最能提升体验感的是产品的细节。如果无脑按照设计规范来搭建页面，就会发现不需要什么思考，只要各个地方保持一致就好。很简单快速。我自己在这几年的设计中也曾犹豫迷茫过，面对设计规范（理性）和视觉效果（感性）的取舍，应该如何做选择。通过大量项目的实践我渐渐发现，单纯依赖设计规范而放弃思考，设计出的产品往往缺一点灵魂，单调且机械。具体情况，还是要具体思考，毕竟设计是拿来体验的，不是流水线上的机械化商品。</p>
+<p><img src="https://github.com/danceryyc/img/blob/master/%E6%96%87%E7%AB%A03-%E9%85%8D%E5%9B%BE8.png?raw=true" alt="https://img.ui.cn/data/file/0/0/0/2171000.png"></p>
+<p>复杂信息类设计最常见的问题是文本的长度控制，很多地方文本短至几字，长至几百字，需要设计师的全局考量，参照产品给出的文本上限/下限，做好设计统筹，结合实际字数设计出页面看效果，并在走查阶段反复验证。</p>
+<p>以上是我的一些心得体会，希望对大家有所帮助。：）</p>
+
+    </section>
+    <footer class="post-footer">
+      <section class="author">
+    <h4>yanyc</h4>
+    <p>一枚内心坚韧的设计师</p>
+</section>
+      <section class="share">
+    <h4>Share this post</h4>
+    <a class="icon-twitter" href="http://twitter.com/share?url=http://danceryyc.github.io/2019/01/08/浅谈复杂信息型界面设计/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <span class="hidden">Twitter</span>
+    </a>
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://danceryyc.github.io/2019/01/08/浅谈复杂信息型界面设计/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <span class="hidden">Facebook</span>
+    </a>
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://danceryyc.github.io/2019/01/08/浅谈复杂信息型界面设计/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <span class="hidden">Google+</span>
+    </a>
+</section>
+    </footer>
+  </article>
+  <nav class="pagination" role="pagination">
+    
+    <span class="page-number">•</span>
+    
+    <a class="older-posts" href="/2017/11/21/一次关于大屏展示设计的思考/">
+        一次关于大屏展示设计的思考 →
+    </a>
+    
+</nav>
+  <div id="comment" class="comments-area">
+    <h1 class="title"><a href="#disqus_comments" name="disqus_comments">Comments</a></h1>
+
+    
+</div>
+</main>
+
+
+  
+<footer class="site-footer">
+  
+  <div class="inner">
+     <section class="copyright">All content copyright <a href="/">Dancer.y</a> &copy; 2014 &bull; All rights reserved.</section>
+     <section class="poweredby">Proudly published with <a class="icon-ghost" href="http://zespia.tw/hexo/">Hexo</a></section>
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/js/index.js"></script>
+
+
+
+
+
+
+</body>
+</html>
